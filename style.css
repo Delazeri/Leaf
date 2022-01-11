@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Economica', sans-serif;
+}
+
+header {
+    background-color: #485342;
+    height: 70px;
+    padding-bottom: 33px;
+}
+
+footer{
+    clear: both;
+    background-color: #c7cec9;
+    height: 150px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: #485342;
+    display: block;
+    padding-bottom: 10px;
+}
+
+li a:hover {
+    color: #485342;
+}
+
+
+/* Id */
+#logo {
+    float: left;
+}
+
+#menu {
+    float: right;
+    margin-top: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #e9e6e2;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#main {
+    max-width: 1366px;
+}
+
+#post1 {
+    background-image: url('img/fundo_liso.png');
+    padding-top: 100px;
+    background-size: 100%;
+    min-height: 400px;
+}
+
+#div_left {
+    min-height: 200px;
+    width: 40%;
+    float: left;
+}
+
+#div_right {
+    padding-top: 20px;
+    min-height: 200px;
+    width: 60%;
+    float: right;
+}
+
+#p1 {
+    font-size: 33px;
+    color: #545454;
+    text-align: justify;
+}
+
+#p2 {
+    font-size: 22px;
+    color: #545454;
+    text-align: justify;
+}
+
+#btnjogo {
+    background-color: #efd8b5;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: none;
+    margin: 20px;
+}
+
+#btnjogo:hover {
+    background-color: #cbb499;
+}
+
+#post2{
+    padding-top: 20px;
+    background-color: #485342;
+    min-height: 500px;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+#ex_left {
+    padding-top: 20px;
+    min-height: 200px;
+    width: 50%;
+    float: left;
+}
+
+#center_left {
+    padding-top: 20px;
+    min-height: 200px;
+    width: 50%;
+    float: right;
+}
+
+#center_right {
+    padding-top: 20px;
+    min-height: 200px;
+    width: 50%;
+    float: left;
+}
+
+#ex_right {
+    padding-top: 20px;
+    min-height: 200px;
+    width: 50%;
+    float: right;
+}
+
+#left {
+    float: left;
+    width: 33%;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 225px;
+    color: #485342;
+    font-size: 40px;
+}
+
+#center {
+    width: 33%;
+    float:left;
+    text-align:left;
+    padding-top: 40px;
+}
+
+#right {
+    float: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+/*Class*/
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.imgs {
+    max-width: 100%;
+    min-height: 550px;
+}
+
+.icon {
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+.nomes {
+    color: #c7cec9;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.sobrenos {
+    color: #c7cec9;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.pfooter {
+    padding-bottom: 15px;
+    color: #485342;
+    font-size: 20px;
+}
+
+.afooter {
+    padding-right: 10px;
+}
